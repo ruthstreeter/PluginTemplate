@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "542978ef-07cb-34e1-ab8e-121f50ced642",
+    "name": "sesudos_pitufo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2a96a7a3-8c7c-3d5d-b80c-be4e42789726",
+    "name": "CheetoPikachu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
