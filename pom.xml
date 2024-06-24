@@ -7,7 +7,7 @@
     <groupId>watch.kube</groupId>
 
     <!-- Change to your plugin name, must be lower cased and match your end package name. No spaces. -->
-    <artifactId>lynx</artifactId>
+    <artifactId>Lynx</artifactId>
 
     <!-- Change to your plugin's name. Can contain capital letters, but do NOT use spaces. -->
     <name>Lynx</name>
