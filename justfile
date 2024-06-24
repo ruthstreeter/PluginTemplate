@@ -15,8 +15,10 @@ build: _build_playwright
   test -f server/plugins/LuckPerms.jar || wget -nc -O server/plugins/LuckPerms.jar https://download.luckperms.net/1549/bukkit/loader/LuckPerms-Bukkit-5.4.134.jar
   test -f server/plugins/WorldEdit.jar || wget -nc -O server/plugins/WorldEdit.jar https://cdn.modrinth.com/data/1u6JkXh5/versions/kZ0IykHx/worldedit-bukkit-7.3.3.jar
   test -f server/plugins/Vault.jar || node scripts/download.js '.project-file-download-container' https://dev.bukkit.org/projects/vault/files/3007470 server/plugins/Vault.jar
-  mvn -DskipTests clean install && mv target/Lynx-1.0.0.jar server/plugins/Lynx.jar
+  mvn clean install && mv target/Lynx-1.0.0.jar server/plugins/Lynx.jar
 
+# build original
+# -DskipTests
 # dependencies tree for compile
 #dependencies:
 #  mvn dependency:tree -Dscope=compile > dependencies.txt
